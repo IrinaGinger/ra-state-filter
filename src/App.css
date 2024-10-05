@@ -1,0 +1,74 @@
+#root {
+  margin: 0 auto;
+  padding: 10px;
+  color: rgb(85, 85, 85);
+  background-color: white;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  padding: 0;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.buttons{
+  display: flex;
+  margin: 0;
+}
+
+.btn-item {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 5px 15px;
+
+  font-weight: 500;
+  font-size: 14px;
+  color: inherit;
+  background-color: inherit;
+
+  border: 2px solid rgb(85, 85, 85);
+
+  cursor: pointer;
+}
+
+.btn-item:hover {
+  border-color: inherit;
+  background-color: lightgray;
+}
+
+.btn-item.active {
+  color: #ffffff;
+  background-color: rgb(85, 85, 85);
+}
+
+.container {
+  display: flex;
+  max-width: 1280px;
+}
+
+.gallery {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 45px) / 3);
+  padding-right: 15px;
+}
+
+.project-item {
+  margin-bottom: 15px;
+}
